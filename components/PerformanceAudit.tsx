@@ -319,14 +319,14 @@ export default function PerformanceAudit() {
                   <div className="text-sm font-semibold text-textMain font-sans">Net Realized Alpha</div>
                   <div className="text-[11px] text-textMuted font-mono">Rolling 7-Day Total Yield</div>
                 </div>
-                <div className="font-mono text-base font-bold text-positiveR font-num">+18.4 R</div>
+                <div className="font-mono text-base font-bold text-positiveR font-num">+12.2 R</div>
               </div>
               <div className="px-5 py-4 flex items-center justify-between hover:bg-panelHover transition-colors">
                 <div>
                   <div className="text-sm font-semibold text-textMain font-sans">Model Win Rate</div>
-                  <div className="text-[11px] text-textMuted font-mono">17 / 26 Dispatches Executed</div>
+                  <div className="text-[11px] text-textMuted font-mono">7 / 11 Dispatches Executed</div>
                 </div>
-                <div className="font-mono text-base font-bold text-textMain font-num">65.4%</div>
+                <div className="font-mono text-base font-bold text-textMain font-num">63.6%</div>
               </div>
               <div className="px-5 py-4 flex items-center justify-between hover:bg-panelHover transition-colors">
                 <div>
@@ -340,7 +340,7 @@ export default function PerformanceAudit() {
                   <div className="text-sm font-semibold text-textMain font-sans">Average Risk Ratio</div>
                   <div className="text-[11px] text-textMuted font-mono">Target vs. Stop Loss Dist.</div>
                 </div>
-                <div className="font-mono text-base font-bold text-accent font-num">1 : 3.10</div>
+                <div className="font-mono text-base font-bold text-accent font-num">1 : 2.31</div>
               </div>
             </div>
           </div>
@@ -359,28 +359,28 @@ export default function PerformanceAudit() {
                   <div className="text-sm font-semibold text-textMain font-sans">Net Realized Alpha</div>
                   <div className="text-[11px] text-textMuted font-mono">Rolling 30-Day Total Yield</div>
                 </div>
-                <div className="font-mono text-base font-bold text-positiveR font-num">+52.8 R</div>
+                <div className="font-mono text-base font-bold text-positiveR font-num">+40.5 R</div>
               </div>
               <div className="px-5 py-4 flex items-center justify-between hover:bg-panelHover transition-colors">
                 <div>
                   <div className="text-sm font-semibold text-textMain font-sans">Model Win Rate</div>
-                  <div className="text-[11px] text-textMuted font-mono">71 / 104 Dispatches Executed</div>
+                  <div className="text-[11px] text-textMuted font-mono">23 / 45 Dispatches Executed</div>
                 </div>
-                <div className="font-mono text-base font-bold text-textMain font-num">68.2%</div>
+                <div className="font-mono text-base font-bold text-textMain font-num">51.2%</div>
               </div>
               <div className="px-5 py-4 flex items-center justify-between hover:bg-panelHover transition-colors">
                 <div>
                   <div className="text-sm font-semibold text-textMain font-sans">Max Period Drawdown</div>
                   <div className="text-[11px] text-textMuted font-mono">Peak-to-Trough Exposure</div>
                 </div>
-                <div className="font-mono text-base font-bold text-drawdownR font-num">-2.45 R</div>
+                <div className="font-mono text-base font-bold text-drawdownR font-num">-4.40 R</div>
               </div>
               <div className="px-5 py-4 flex items-center justify-between hover:bg-panelHover transition-colors">
                 <div>
                   <div className="text-sm font-semibold text-textMain font-sans">Average Risk Ratio</div>
                   <div className="text-[11px] text-textMuted font-mono">Target vs. Stop Loss Dist.</div>
                 </div>
-                <div className="font-mono text-base font-bold text-accent font-num">1 : 3.25</div>
+                <div className="font-mono text-base font-bold text-accent font-num">1 : 2.72</div>
               </div>
             </div>
           </div>
