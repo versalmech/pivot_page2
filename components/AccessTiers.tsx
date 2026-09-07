@@ -273,7 +273,7 @@ export default function AccessTiers() {
 
             {/* Institutional Dispatch Trigger */}
             <a
-              href="https://t.me/defisnyper"
+              href="https://t.me/echelonmech"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 rounded bg-panel/90 border border-accent/40 hover:border-accent hover:bg-panel active:scale-[0.99] text-textMain font-mono text-xs font-bold uppercase tracking-wider text-center transition-all shrink-0 flex items-center justify-center space-x-2 cursor-pointer shadow-sm group"

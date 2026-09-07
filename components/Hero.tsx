@@ -41,7 +41,7 @@ export default function Hero() {
         {/* Interactive CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1 max-w-md mx-auto">
           <a
-            href="https://t.me/defisnyper"
+            href="https://t.me/echelonmech"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-6 py-3 rounded bg-accent text-canvas font-mono text-xs font-bold uppercase tracking-wider hover:opacity-95 active:scale-[0.98] transition-all text-center shadow-lg cursor-pointer"
