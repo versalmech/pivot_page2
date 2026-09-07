@@ -86,7 +86,7 @@ export default function Footer() {
             </h4>
             <div className="flex sm:flex-col gap-2">
               <a
-                href="https://t.me/defisnyper"
+                href="https://t.me/echelonmech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3 py-2 rounded bg-panel border border-borderSubtle hover:border-accent/80 hover:bg-panelHover text-textMain hover:text-accent font-mono text-[10px] font-bold transition-all text-center flex-1 sm:flex-none shadow-sm cursor-pointer"
