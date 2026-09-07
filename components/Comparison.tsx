@@ -20,7 +20,7 @@ interface RowSpec {
 const MATRIX_SPECS: RowSpec[] = [
   {
     metric: '01. RISK ASYMMETRY',
-    delta: '+3.10R SPREAD',
+    delta: '+4.33R SPREAD',
     legacy: {
       badge: 'SYMMETRIC DRAG',
       stat: '1.0R : 0.2R PAYOFF',
@@ -28,7 +28,7 @@ const MATRIX_SPECS: RowSpec[] = [
     },
     echelon: {
       badge: '5R+ RUNNER VECTORS',
-      stat: '1.0R : 5.0R+ PAYOFF',
+      stat: '1.0R : 4.33R+ PAYOFF',
       desc: 'Engineered for multi-wave expansions with automated breakeven ratchets securing risk-free runner equity.',
     },
   },
