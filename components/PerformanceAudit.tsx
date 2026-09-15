@@ -26,25 +26,25 @@ interface CompoundedMetric {
 }
 
 const SECTION_1_DATA: MonthlyMetric[] = [
-  { period: "JAN '26", trades: 56, wr: '32.1%', pf: '1.69', avgR: '+0.47', pnlDollar: '+$196.2', pnlPct: '+19.6%', ddPct: '7.2%' },
-  { period: "FEB '26", trades: 38, wr: '42.1%', pf: '2.55', avgR: '+0.90', pnlDollar: '+$256.5', pnlPct: '+25.7%', ddPct: '5.3%' },
-  { period: "MAR '26", trades: 31, wr: '41.9%', pf: '2.26', avgR: '+0.69', pnlDollar: '+$160.8', pnlPct: '+16.1%', ddPct: '4.3%' },
-  { period: "APR '26", trades: 39, wr: '35.9%', pf: '2.07', avgR: '+0.67', pnlDollar: '+$194.7', pnlPct: '+19.5%', ddPct: '4.0%' },
-  { period: "MAY '26", trades: 45, wr: '60.0%', pf: '5.68', avgR: '+1.87', pnlDollar: '+$631.8', pnlPct: '+63.2%', ddPct: '2.6%' },
-  { period: "JUN '26", trades: 53, wr: '54.7%', pf: '3.94', avgR: '+1.33', pnlDollar: '+$529.8', pnlPct: '+53.0%', ddPct: '2.2%' },
-  { period: "JUL '26", trades: 51, wr: '49.0%', pf: '2.45', avgR: '+0.74', pnlDollar: '+$282.2', pnlPct: '+28.2%', ddPct: '4.4%' },
-  { period: "AUG '26", trades: 46, wr: '28.3%', pf: '1.68', avgR: '+0.49', pnlDollar: '+$168.9', pnlPct: '+16.9%', ddPct: '4.4%' },
+  { period: "JAN '26", trades: 99, wr: '42.4%', pf: '1.87', avgR: '+0.89', pnlDollar: '+$463.8', pnlPct: '+46.4%', ddPct: '11.2%' },
+  { period: "FEB '26", trades: 63, wr: '49.2%', pf: '2.92', avgR: '+1.30', pnlDollar: '+$533.0', pnlPct: '+53.3%', ddPct: '4.6%' },
+  { period: "MAR '26", trades: 67, wr: '43.3%', pf: '2.04', avgR: '+0.94', pnlDollar: '+$361.6', pnlPct: '+36.2%', ddPct: '12.6%' },
+  { period: "APR '26", trades: 75, wr: '45.3%', pf: '1.99', avgR: '+0.96', pnlDollar: '+$378.5', pnlPct: '+37.9%', ddPct: '4.2%' },
+  { period: "MAY '26", trades: 78, wr: '53.8%', pf: '3.30', avgR: '+1.53', pnlDollar: '+$748.6', pnlPct: '+74.9%', ddPct: '5.8%' },
+  { period: "JUN '26", trades: 87, wr: '64.4%', pf: '4.77', avgR: '+1.82', pnlDollar: '+$1,031.9', pnlPct: '+103.2%', ddPct: '2.6%' },
+  { period: "JUL '26", trades: 78, wr: '43.6%', pf: '1.42', avgR: '+0.56', pnlDollar: '+$170.1', pnlPct: '+17.0%', ddPct: '9.5%' },
+  { period: "AUG '26", trades: 86, wr: '43.0%', pf: '1.76', avgR: '+0.82', pnlDollar: '+$351.8', pnlPct: '+35.2%', ddPct: '8.8%' },
 ];
 
 const SECTION_2_DATA: CompoundedMetric[] = [
-  { period: "JAN '26", trades: 56, wr: '32.1%', startBal: '1,000.0', endBal: '1,206.5', gainPct: '+20.6%', maxDDPct: '7.3%' },
-  { period: "FEB '26", trades: 38, wr: '42.1%', startBal: '1,206.5', endBal: '1,548.4', gainPct: '+28.3%', maxDDPct: '5.5%' },
-  { period: "MAR '26", trades: 31, wr: '41.9%', startBal: '1,548.4', endBal: '1,810.0', gainPct: '+16.9%', maxDDPct: '4.4%' },
-  { period: "APR '26", trades: 39, wr: '35.9%', startBal: '1,810.0', endBal: '2,185.1', gainPct: '+20.7%', maxDDPct: '4.6%' },
-  { period: "MAY '26", trades: 45, wr: '60.0%', startBal: '2,185.1', endBal: '4,060.6', gainPct: '+85.8%', maxDDPct: '3.0%' },
-  { period: "JUN '26", trades: 53, wr: '54.7%', startBal: '4,060.6', endBal: '6,818.1', gainPct: '+67.9%', maxDDPct: '3.0%' },
-  { period: "JUL '26", trades: 51, wr: '49.0%', startBal: '6,818.1', endBal: '8,971.7', gainPct: '+31.6%', maxDDPct: '5.0%' },
-  { period: "AUG '26", trades: 46, wr: '28.3%', startBal: '8,971.7', endBal: '10,543.9', gainPct: '+17.5%', maxDDPct: '4.7%' },
+  { period: "JAN '26", trades: 99, wr: '42.4%', startBal: '1,000.0', endBal: '1,562.3', gainPct: '+56.2%', maxDDPct: '12.4%' },
+  { period: "FEB '26", trades: 63, wr: '49.2%', startBal: '1,562.3', endBal: '2,625.8', gainPct: '+68.1%', maxDDPct: '5.6%' },
+  { period: "MAR '26", trades: 67, wr: '43.3%', startBal: '2,625.8', endBal: '3,723.8', gainPct: '+41.8%', maxDDPct: '13.7%' },
+  { period: "APR '26", trades: 75, wr: '45.3%', startBal: '3,723.8', endBal: '5,366.3', gainPct: '+44.1%', maxDDPct: '5.7%' },
+  { period: "MAY '26", trades: 78, wr: '53.8%', startBal: '5,366.3', endBal: '11,148.9', gainPct: '+107.8%', maxDDPct: '10.3%' },
+  { period: "JUN '26", trades: 87, wr: '64.4%', startBal: '11,148.9', endBal: '30,655.5', gainPct: '+175.0%', maxDDPct: '11.2%' },
+  { period: "JUL '26", trades: 78, wr: '43.6%', startBal: '30,655.5', endBal: '35,961.7', gainPct: '+17.3%', maxDDPct: '11.5%' },
+  { period: "AUG '26", trades: 86, wr: '43.0%', startBal: '35,961.7', endBal: '50,401.4', gainPct: '+40.2%', maxDDPct: '16.7%' },
 ];
 
 export default function PerformanceAudit() {
@@ -63,7 +63,7 @@ export default function PerformanceAudit() {
             Out-of-Sample Quantitative Execution Ledger
           </h3>
           <p className="text-sm sm:text-base text-textSub font-normal leading-relaxed">
-            Live un-optimized telemetry across a pooled 5-asset matrix (BTC, ETH, SOL, BNB, AVAX). Verifiable proof that asymmetric payoff and disciplined execution outperform curve-fitted fantasies.
+            Live un-optimized telemetry across an audited 6-asset matrix (ETH, BTC, BNB, SOL, SUI, AVAX). Verifiable proof that asymmetric payoff and disciplined execution outperform curve-fitted models.
           </p>
         </div>
 
@@ -104,11 +104,11 @@ export default function PerformanceAudit() {
 
           <div className="flex items-center space-x-2 font-mono text-[10px] text-textMuted uppercase tracking-wider">
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-            <span>UNIVERSE: 5-ASSET POOLED // RISK: 0.75%</span>
+            <span>UNIVERSE: 6-ASSET MATRIX // RISK: 0.75%</span>
           </div>
         </div>
 
-        {/* TAB 1: 5-ASSET POOLED MATRIX */}
+        {/* TAB 1: 6-ASSET POOLED MATRIX */}
         {activeTab === 'matrix' && (
           <div className="space-y-6">
             
@@ -116,36 +116,36 @@ export default function PerformanceAudit() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               <div className="bg-panel p-3.5 sm:p-4 rounded border border-borderSubtle">
                 <span className="font-mono text-[10px] text-textMuted uppercase tracking-wider block">TOTAL EXECUTIONS</span>
-                <span className="font-mono text-xl sm:text-2xl font-bold text-textMain">359</span>
+                <span className="font-mono text-xl sm:text-2xl font-bold text-textMain">633</span>
                 <span className="text-[10px] text-textSub block mt-0.5 font-sans">8 Continuous Months</span>
               </div>
               <div className="bg-panel p-3.5 sm:p-4 rounded border border-borderSubtle">
                 <span className="font-mono text-[10px] text-textMuted uppercase tracking-wider block">EXPECTANCY MEAN</span>
-                <span className="font-mono text-xl sm:text-2xl font-bold text-accent">+0.90 R</span>
-                <span className="text-[10px] text-textSub block mt-0.5 font-sans">43.2% Structural WR</span>
+                <span className="font-mono text-xl sm:text-2xl font-bold text-accent">+1.10 R</span>
+                <span className="text-[10px] text-textSub block mt-0.5 font-sans">48.2% Structural WR</span>
               </div>
               <div className="bg-panel p-3.5 sm:p-4 rounded border border-borderSubtle">
                 <span className="font-mono text-[10px] text-textMuted uppercase tracking-wider block">PROFIT FACTOR</span>
-                <span className="font-mono text-xl sm:text-2xl font-bold text-positiveR">2.60</span>
+                <span className="font-mono text-xl sm:text-2xl font-bold text-positiveR">2.34</span>
                 <span className="text-[10px] text-textSub block mt-0.5 font-sans">Gross Win / Gross Loss</span>
               </div>
               <div className="bg-panel p-3.5 sm:p-4 rounded border border-borderSubtle">
                 <span className="font-mono text-[10px] text-textMuted uppercase tracking-wider block">COMPOUNDED RETURN</span>
-                <span className="font-mono text-xl sm:text-2xl font-bold text-positiveR">+954.4%</span>
-                <span className="text-[10px] text-drawdownR block mt-0.5 font-mono font-semibold">Max DD: 7.3%</span>
+                <span className="font-mono text-xl sm:text-2xl font-bold text-positiveR">+4,940%</span>
+                <span className="text-[10px] text-drawdownR block mt-0.5 font-mono font-semibold">Max DD: 16.7%</span>
               </div>
             </div>
 
-            {/* REALISTIC WIN-RATE & EMPIRICAL ALPHA THESIS */}
+            {/* ASYMMETRIC EXPECTANCY THESIS (OPTION 1) */}
             <div className="rounded border border-borderSubtle bg-panel/90 p-4 sm:p-5 text-xs text-textSub space-y-2">
               <div className="flex items-center space-x-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent" />
                 <span className="font-mono text-[11px] font-bold text-textMain uppercase tracking-wide">
-                  EMPIRICAL DISCIPLINE VS. SYNTHETIC 90% WIN RATES
+                  ASYMMETRIC DISTRIBUTION // EXPECTANCY-DRIVEN ARCHITECTURE
                 </span>
               </div>
               <p className="leading-relaxed font-sans text-textSub text-[13px]">
-                Retail schemes lure capital with overfitted, synthetic 90%+ win-rate backtests that inevitably liquidate accounts under real market friction. Echelon operates on mathematical reality: a <strong className="text-textMain font-semibold">43.2% win rate</strong> combined with an average trade expectancy of <strong className="text-accent font-mono font-bold">+0.90 R</strong> and rigid <strong className="text-textMain font-semibold">0.75% risk per trade</strong> generated <strong className="text-positiveR font-mono font-bold">+954.4% net gain</strong> with a peak drawdown of just <strong className="text-drawdownR font-mono font-bold">7.3%</strong> across 359 forward dispatches.
+                Long-term edge in perpetual futures is governed by trade expectancy (<span className="font-mono text-accent">E[R]</span>) and payoff convexity, not artificial win-rate metrics. High-frequency models optimized for 90%+ accuracy consistently introduce catastrophic left-tail liquidation exposure under dynamic volatility regimes. Echelon is engineered for structural asymmetry: coupling a disciplined <strong className="text-textMain font-semibold">48.2% hit rate</strong> with an average trade expectancy of <strong className="text-accent font-mono font-bold">+1.10 R</strong> and rigid <strong className="text-textMain font-semibold">0.75% risk per trade</strong> to generate <strong className="text-positiveR font-mono font-bold">+4,940% net compounding</strong> with drawdown constrained to <strong className="text-drawdownR font-mono font-bold">16.7%</strong> across 633 live executions.
               </p>
             </div>
 
@@ -192,18 +192,26 @@ export default function PerformanceAudit() {
                         <td className="py-2 px-3 text-right text-drawdownR">{row.ddPct}</td>
                       </tr>
                     ))}
-                    <tr className="bg-panelHover border-t-2 border-b-2 border-accent/40 font-bold text-textMain">
+                    <tr className="bg-panelHover border-t-2 border-b border-accent/40 font-bold text-textMain">
                       <td className="py-2.5 px-3 text-accent tracking-wide whitespace-nowrap">TOTAL</td>
-                      <td className="py-2.5 px-3 text-center">359</td>
-                      <td className="py-2.5 px-3 text-right">43.2%</td>
-                      <td className="py-2.5 px-3 text-right">2.60</td>
-                      <td className="py-2.5 px-3 text-right text-accent">+0.90</td>
-                      <td className="py-2.5 px-3 text-right text-positiveR whitespace-nowrap">+$2,421.0</td>
-                      <td className="py-2.5 px-3 text-right text-positiveR">+242.1%</td>
-                      <td className="py-2.5 px-3 text-right text-drawdownR">7.2%</td>
+                      <td className="py-2.5 px-3 text-center">633</td>
+                      <td className="py-2.5 px-3 text-right">48.2%</td>
+                      <td className="py-2.5 px-3 text-right text-accent">2.34</td>
+                      <td className="py-2.5 px-3 text-right text-accent">+1.10</td>
+                      <td className="py-2.5 px-3 text-right text-positiveR whitespace-nowrap">+$4,039.3</td>
+                      <td className="py-2.5 px-3 text-right text-positiveR">+403.9%</td>
+                      <td className="py-2.5 px-3 text-right text-drawdownR">12.6%</td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+
+              {/* Ledger 01 Friction Governance Footnote */}
+              <div className="px-4 py-2.5 bg-canvas/60 border-t border-borderSubtle/60 flex flex-wrap items-center justify-between gap-y-1 font-mono text-[10px] text-textMuted">
+                <div>Gross Edge: <span className="text-textMain">+$5,154.72</span></div>
+                <div>Taker Fees Deducted: <span className="text-drawdownR">-$1,115.42 (21.6%)</span></div>
+                <div>Net Realized: <span className="text-positiveR font-semibold">+$4,039.30</span></div>
+                <div>Unreset Total DD: <span className="text-textSub">11.2%</span></div>
               </div>
             </div>
 
@@ -215,7 +223,7 @@ export default function PerformanceAudit() {
                     LEDGER 02 // DYNAMIC WEALTH COMPOUNDING (0.75% RISK)
                   </span>
                   <span className="text-xs text-textMuted block sm:inline sm:ml-2 font-sans">
-                    0.75% Risk Dynamic Sizing on Running Portfolio Balance
+                    Dynamic Position Sizing with 15% Maximum Margin Guard
                   </span>
                 </div>
                 <span className="font-mono text-[10px] text-positiveR font-semibold uppercase">
@@ -248,17 +256,58 @@ export default function PerformanceAudit() {
                         <td className="py-2 px-3 text-right text-drawdownR">{row.maxDDPct}</td>
                       </tr>
                     ))}
-                    <tr className="bg-panelHover border-t-2 border-b-2 border-accent/40 font-bold text-textMain">
+                    <tr className="bg-panelHover border-t-2 border-b border-accent/40 font-bold text-textMain">
                       <td className="py-2.5 px-3 text-accent tracking-wide whitespace-nowrap">TOTAL</td>
-                      <td className="py-2.5 px-3 text-center">359</td>
-                      <td className="py-2.5 px-3 text-right">43.2%</td>
+                      <td className="py-2.5 px-3 text-center">633</td>
+                      <td className="py-2.5 px-3 text-right">48.2%</td>
                       <td className="py-2.5 px-3 text-right text-textSub whitespace-nowrap">$1,000.0</td>
-                      <td className="py-2.5 px-3 text-right text-positiveR whitespace-nowrap">$10,543.9</td>
-                      <td className="py-2.5 px-3 text-right text-positiveR">+954.4%</td>
-                      <td className="py-2.5 px-3 text-right text-drawdownR">7.3%</td>
+                      <td className="py-2.5 px-3 text-right text-positiveR whitespace-nowrap">$50,401.4</td>
+                      <td className="py-2.5 px-3 text-right text-positiveR">+4,940%</td>
+                      <td className="py-2.5 px-3 text-right text-drawdownR">16.7%</td>
                     </tr>
                   </tbody>
                 </table>
+              </div>
+
+              {/* Ledger 02 Friction Governance Footnote */}
+              <div className="px-4 py-2.5 bg-canvas/60 border-t border-borderSubtle/60 flex flex-wrap items-center justify-between gap-y-1 font-mono text-[10px] text-textMuted">
+                <div>Compounded Gross: <span className="text-textMain">+$67,498.95</span></div>
+                <div>Taker Fees Paid: <span className="text-drawdownR">-$18,097.56 (26.8%)</span></div>
+                <div>Terminal Net Equity: <span className="text-positiveR font-semibold">$50,401.39</span></div>
+                <div>Risk Ceiling: <span className="text-accent font-medium">0.75% Fixed Base</span></div>
+              </div>
+            </div>
+
+            {/* UNIFIED EXECUTION INTEGRITY & FRICTION AUDIT STRIP */}
+            <div className="rounded border border-borderSubtle bg-panel/70 p-3.5 sm:p-4 font-mono text-[11px] space-y-2.5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[10px] text-textMuted border-b border-borderSubtle/50 pb-2">
+                <span className="font-bold uppercase tracking-wider text-accent">
+                  ◆ EXECUTION GOVERNANCE & RISK PARAMETERS
+                </span>
+                <span>ASSETS: ETH / BTC / BNB / SOL / SUI / AVAX</span>
+              </div>
+              
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[10px] sm:text-[11px] pt-0.5">
+                <div>
+                  <span className="text-textMuted block text-[9px] uppercase">Margin Safety Gate</span>
+                  <span className="text-textMain font-semibold">15% Cap @ 25x</span>
+                  <span className="text-[9px] text-accent block">56/633 (8.8%) clamped</span>
+                </div>
+                <div>
+                  <span className="text-textMuted block text-[9px] uppercase">Noise Filter Gate</span>
+                  <span className="text-textMain font-semibold">Min-Stop Active</span>
+                  <span className="text-[9px] text-textSub block">162 setups filtered</span>
+                </div>
+                <div>
+                  <span className="text-textMuted block text-[9px] uppercase">Scale-Out Split</span>
+                  <span className="text-textMain font-semibold">35 / 55 / 10 Slices</span>
+                  <span className="text-[9px] text-positiveR block">BE @ TP2 Migration</span>
+                </div>
+                <div>
+                  <span className="text-textMuted block text-[9px] uppercase">Friction Model</span>
+                  <span className="text-textMain font-semibold">0.10% Taker Deducted</span>
+                  <span className="text-[9px] text-drawdownR block">Realized at execution</span>
+                </div>
               </div>
             </div>
 

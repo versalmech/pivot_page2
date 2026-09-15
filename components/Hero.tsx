@@ -63,7 +63,7 @@ export default function Hero() {
           {/* Compounded Cumulative Return */}
           <div className="p-2.5 sm:p-4 rounded bg-panel border border-borderSubtle flex flex-col items-center justify-center space-y-1">
             <span className="font-mono text-base sm:text-2xl md:text-3xl font-bold text-positiveR font-num">
-              +954.4%
+              +4,940%
             </span>
             <span className="font-mono text-[8.5px] sm:text-[10px] text-textMuted uppercase tracking-wider">
               Compounded Return
@@ -76,20 +76,20 @@ export default function Hero() {
           {/* Realized Win Payout */}
           <div className="p-2.5 sm:p-4 rounded bg-panel border border-borderSubtle flex flex-col items-center justify-center space-y-1">
             <span className="font-mono text-base sm:text-2xl md:text-3xl font-bold text-accent font-num">
-              +4.33R
+              2.34
             </span>
             <span className="font-mono text-[8.5px] sm:text-[10px] text-textMuted uppercase tracking-wider">
-              Realized Win Payout
+              Profit Factor
             </span>
             <span className="font-mono text-[7.5px] sm:text-[8.5px] text-textMuted tracking-tight">
-              3-Tier Scale-Out
+              +1.10 Avg R • 633 tr
             </span>
           </div>
 
           {/* Max Peak Drawdown */}
           <div className="p-2.5 sm:p-4 rounded bg-panel border border-borderSubtle flex flex-col items-center justify-center space-y-1">
             <span className="font-mono text-base sm:text-2xl md:text-3xl font-bold text-drawdownR font-num">
-              -7.30%
+              -16.7%
             </span>
             <span className="font-mono text-[8.5px] sm:text-[10px] text-textMuted uppercase tracking-wider">
               Max Drawdown
