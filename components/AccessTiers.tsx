@@ -25,69 +25,71 @@ const TIERS: Record<TierId, TierData> = {
   tier0: {
     id: 'tier0',
     label: 'TIER 0',
-    name: 'Public Audit Feed',
-    bracket: 'Open Observation',
-    feeMonthly: 0,
-    feeQuarterly: 0,
-    thread: 'Public Telemetry Node',
-    queue: 'Observation Queue',
-    drawdownFloor: 'N/A (Read-Only)',
-    apiScope: 'None (Observer Stream)',
-    capacityText: 'UNLIMITED PUBLIC ACCESS',
-    description: 'Zero-cost performance observation and real-time execution telemetry stream.',
-    ctaText: 'INITIALIZE AUDIT STREAM',
-  },
-  tier1: {
-    id: 'tier1',
-    label: 'TIER 1',
     name: 'Signal Telemetry',
     bracket: 'Discretionary Desks',
+    badge: 'TELEMETRY VIP',
     feeMonthly: 89,
     feeQuarterly: 219,
     thread: 'Telemetry Worker Pool',
     queue: 'Sub-Second Event Relay',
     drawdownFloor: 'Manual Alert Brackets',
-    apiScope: 'Read Telemetry Only',
-    capacityText: 'TELEMETRY FEED OPEN',
-    description: 'Sub-second webhook dispatch with exact entry, target, and structural SL levels.',
+    apiScope: 'Read Telemetry (No API Required)',
+    capacityText: 'VIP FEED OPERATIONAL',
+    description: 'Sub-second webhook dispatch with exact entry, target, and structural SL levels. Real-time regime intelligence.',
     ctaText: 'SUBSCRIBE TO TELEMETRY',
+  },
+  tier1: {
+    id: 'tier1',
+    label: 'TIER 1',
+    name: 'Core Desk',
+    bracket: '$2k – $6k Equity',
+    badge: 'CORE ALLOCATION',
+    feeMonthly: 169,
+    feeQuarterly: 415,
+    thread: 'Asynchronous Event-Loop Worker',
+    queue: 'Non-Blocking Async Dispatcher',
+    drawdownFloor: '$1,500 Hard Preservation Floor',
+    apiScope: 'Read + Isolated Trade Only',
+    capacityText: '12 / 50 API SLOTS ALLOCATED',
+    description: 'Direct sub-second API order routing engineered for individual quantitative nodes on BingX Perps.',
+    ctaText: 'DEPLOY CORE DESK',
   },
   tier2: {
     id: 'tier2',
     label: 'TIER 2',
-    name: 'Execution Core',
-    bracket: '$2k – $10k Equity',
-    badge: 'CORE ALLOCATION',
-    feeMonthly: 169,
-    feeQuarterly: 429,
-    thread: 'Multi-Tenant Process Pool',
-    queue: 'FIFO Standard Queue',
-    drawdownFloor: '$1,500 Preservation Floor',
+    name: 'Pro Desk',
+    bracket: '$6k – $15k Equity',
+    badge: 'PRO ALLOCATION',
+    feeMonthly: 349,
+    feeQuarterly: 858,
+    thread: 'Dedicated Memory-Resident Node',
+    queue: 'Priority-Mapped Event Stream',
+    drawdownFloor: '$4,500 Hard Preservation Floor',
     apiScope: 'Read + Isolated Trade Only',
     capacityText: '12 / 50 API SLOTS ALLOCATED',
-    description: 'Direct sub-second API order routing engineered for standard account equity on BingX Perps.',
-    ctaText: 'DEPLOY EXECUTION CORE',
+    description: 'Isolated high-frequency execution runtime with real-time balance state sync and priority queue routing.',
+    ctaText: 'DEPLOY PRO DESK',
   },
   tier3: {
     id: 'tier3',
     label: 'TIER 3',
     name: 'Institutional Gateway',
-    bracket: '$15k – $50k Equity',
+    bracket: '$15k – $30k Equity',
     badge: 'PRIORITY THREAD',
-    feeMonthly: 349,
-    feeQuarterly: 899,
+    feeMonthly: 799,
+    feeQuarterly: 1965,
     thread: 'Isolated Container Runtime',
-    queue: 'Priority Memory Queue',
-    drawdownFloor: 'Dynamic Equity Floor (-7.30%)',
+    queue: 'Zero-Wait Memory Queue (<25ms)',
+    drawdownFloor: '$11,250 Hard Preservation Floor',
     apiScope: 'Read + Isolated Trade Only',
-    capacityText: '4 / 10 DEDICATED THREADS ALLOCATED',
-    description: 'Dedicated memory-resident execution engine and priority queue routing for high-capital desks.',
-    ctaText: 'DEPLOY PRIORITY GATEWAY',
+    capacityText: '12 / 50 API SLOTS ALLOCATED',
+    description: 'Autonomous dedicated execution instance engineered for high-capital institutional desks requiring lowest fill latency.',
+    ctaText: 'DEPLOY INSTITUTIONAL GATEWAY',
   },
 };
 
 export default function AccessTiers() {
-  const [selectedTier, setSelectedTier] = useState<TierId>('tier2');
+  const [selectedTier, setSelectedTier] = useState<TierId>('tier1');
   const [isQuarterly, setIsQuarterly] = useState(false);
 
   const activeData = TIERS[selectedTier];
@@ -140,7 +142,7 @@ export default function AccessTiers() {
           </div>
         </div>
 
-        {/* Capital Segment Controller */}
+        {/* Capital Segment Controller (2x2 Mobile Grid / 4-Col Desktop) */}
         <div className="rounded-t border-t border-x border-borderSubtle bg-panel p-2 shadow-lg">
           <div className="text-[10px] font-mono font-bold text-textMuted uppercase tracking-wide px-2 py-1 mb-2">
             CAPITAL ALLOCATION BRACKET:
@@ -192,7 +194,6 @@ export default function AccessTiers() {
         {/* System Specifications Detailed Box */}
         <div className="rounded-b border border-borderSubtle bg-panel p-4 sm:p-6 shadow-2xl space-y-4">
           
-          {/* Header Title with Clean Inline Capital Band */}
           <div className="pb-3 border-b border-borderSubtle/60">
             <div className="font-mono text-[10px] font-bold text-accent uppercase tracking-wide mb-1">
               {activeData.label} · SYSTEM SPECIFICATIONS
@@ -207,12 +208,10 @@ export default function AccessTiers() {
             </div>
           </div>
 
-          {/* Description Copy */}
           <p className="text-[13px] sm:text-sm text-textSub font-sans leading-relaxed max-w-2xl">
             {activeData.description}
           </p>
 
-          {/* Grid-Locked Specification Table */}
           <div className="divide-y divide-borderSubtle/50 border border-borderSubtle bg-canvas/60 rounded overflow-hidden">
             <div className="py-2.5 px-3.5 grid grid-cols-12 items-baseline">
               <span className="col-span-5 font-mono text-textMuted uppercase text-[10px] tracking-wide">
@@ -236,7 +235,7 @@ export default function AccessTiers() {
               <span className="col-span-5 font-mono text-textMuted uppercase text-[10px] tracking-wide">
                 DRAWDOWN CIRCUIT FLOOR
               </span>
-              <span className="col-span-7 font-mono text-[11px] sm:text-xs text-textMain font-medium text-right leading-snug">
+              <span className="col-span-7 font-mono text-[11px] sm:text-xs text-accent font-semibold text-right leading-snug">
                 {activeData.drawdownFloor}
               </span>
             </div>
@@ -271,9 +270,8 @@ export default function AccessTiers() {
               </div>
             </div>
 
-            {/* Institutional Dispatch Trigger */}
             <a
-              href="https://t.me/echelonmech"
+              href="https://t.me/echelonmechbot"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 rounded bg-panel/90 border border-accent/40 hover:border-accent hover:bg-panel active:scale-[0.99] text-textMain font-mono text-xs font-bold uppercase tracking-wider text-center transition-all shrink-0 flex items-center justify-center space-x-2 cursor-pointer shadow-sm group"
