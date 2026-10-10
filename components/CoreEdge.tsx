@@ -33,7 +33,7 @@ const PILLARS: EdgePillar[] = [
     badge: '+4.33R REALIZED MEAN',
     desc: (
       <>
-        Long-term capital survival demands structural payoff asymmetry over fragile, high-probability micro-scalping. Echelon is engineered for structural expansions where fully realized winning trades yield <strong className="text-positiveR font-mono font-bold">+4.33R net return</strong> across disciplined 3-tier scale-outs (2.5R, 5.0R, and 7.0R). Factoring in all stop-outs, fee drag, and market friction across 633 forward executions, the engine extracts a net portfolio expectancy of <strong className="text-accent font-mono font-bold">+1.10R pure alpha on every single trade fired</strong>.
+        Long-term capital survival demands structural payoff asymmetry over fragile, high-probability micro-scalping. Echelon is engineered for structural expansions where fully realized winning trades yield <strong className="text-positiveR font-mono font-bold">+4.33R net return</strong> across disciplined 3-tier scale-outs (2.5R, 5.0R, and 7.0R). Factoring in all stop-outs, fee drag, and market friction across 624 forward executions, the engine extracts a net portfolio expectancy of <strong className="text-accent font-mono font-bold">+1.15R pure alpha on every single trade fired</strong>.
       </>
     ),
     footerTag: 'WINNING PAYOUT',
